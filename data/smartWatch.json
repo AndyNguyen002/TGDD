@@ -1,0 +1,114 @@
+[
+    {
+        "id": 0,
+        "name": "Apple S3",
+        "image": "https://cdn.tgdd.vn/Products/Images/7077/239158/apple-watch-s3-gps-38mm-den-thumbnew-600x600.jpeg",
+        "price": 390000,
+        "owner": "Apple",
+        "ice": [
+            "Red",
+            "Blue",
+            "Violet",
+            "Yellow",
+            "Gray"
+        ],
+        "size": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+
+        ],
+        "description": "Về mặt tổng thể  Apple Watch S3 42 mm có kích thước tương tự như Apple Watch Series 2. Sản phẩm chú trọng thêm về mặt thẩm mỹ với thiết kế sang trọng, năng động, dây đeo có nhiều màu sắc khác nhau."
+    },
+    {
+        "id": 1,
+        "name": "Apple SE",
+        "image": "https://cdn.tgdd.vn/Products/Images/7077/229059/apple-watch-se-lte-44mm-vien-nhom-day-cao-su-hong-1-2-600x600.jpg",
+        "price": 390000,
+        "owner": "Apple",
+        "ice": [
+            "Red",
+            "Blue",
+            "Violet",
+            "Yellow",
+            "Gray"
+        ],
+        "size": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+
+        ],
+        "description": "Về mặt tổng thể  Apple Watch S3 42 mm có kích thước tương tự như Apple Watch Series 2. Sản phẩm chú trọng thêm về mặt thẩm mỹ với thiết kế sang trọng, năng động, dây đeo có nhiều màu sắc khác nhau."
+    },{
+        "id": 2,
+        "name": "Haylou GST",
+        "image": "https://cdn.tgdd.vn/Products/Images/7077/286740/dong-ho-haylou-gst-den-thumbnew-600x600.jpeg",
+        "price": 390000,
+        "owner": "Apple",
+        "ice": [
+            "Red",
+            "Blue",
+            "Violet",
+            "Yellow",
+            "Gray"
+        ],
+        "size": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+
+        ],
+        "description": "Về mặt tổng thể  Apple Watch S3 42 mm có kích thước tương tự như Apple Watch Series 2. Sản phẩm chú trọng thêm về mặt thẩm mỹ với thiết kế sang trọng, năng động, dây đeo có nhiều màu sắc khác nhau."
+    },{
+        "id": 3,
+        "name": "Galaxy 4",
+        "image": "https://cdn.tgdd.vn/Products/Images/7077/248752/samsung-galaxy-watch-4-40mm-1-2-600x600.jpg",
+        "price": 390000,
+        "owner": "Samsung",
+        "ice": [
+            "Red",
+            "Blue",
+            "Violet",
+            "Yellow",
+            "Gray"
+        ],
+        "size": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+
+        ],
+        "description": "Về mặt tổng thể  Apple Watch S3 42 mm có kích thước tương tự như Apple Watch Series 2. Sản phẩm chú trọng thêm về mặt thẩm mỹ với thiết kế sang trọng, năng động, dây đeo có nhiều màu sắc khác nhau."
+    },{
+        "id": 4,
+        "name": "Apple Serie 7",
+        "image": "https://cdn.tgdd.vn/Products/Images/7077/250640/dong-ho-apple-watch-s7-lte-45mm-vang-thumbnew-600x600.jpeg",
+        "price": 390000,
+        "owner": "Apple",
+        "ice": [
+            "Red",
+            "Blue",
+            "Violet",
+            "Yellow",
+            "Gray"
+        ],
+        "size": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+
+        ],
+        "description": "Về mặt tổng thể  Apple Watch S3 42 mm có kích thước tương tự như Apple Watch Series 2. Sản phẩm chú trọng thêm về mặt thẩm mỹ với thiết kế sang trọng, năng động, dây đeo có nhiều màu sắc khác nhau."
+    }
+]

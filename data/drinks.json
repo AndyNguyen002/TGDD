@@ -1,0 +1,117 @@
+[
+    {
+        "id": 0,
+        "name": "Iphone 14 Pro",
+        "image": "https://cdn.tgdd.vn/Products/Images/42/247508/iphone-14-pro-tim-thumb-600x600.jpg",
+        "price": 390000,
+        "owner": "Iphone",
+        "ice": [
+            "Red",
+            "Blue",
+            "Violet",
+            "Yellow",
+            "Gray"
+        ],
+        "size": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+
+        ],
+        "description": "Tại sự kiện ra mắt sản phẩm thường niên diễn ra vào tháng 9/2022, Apple đã trình làng iPhone 14 Pro với những cải tiến về thiết kế màn hình, hiệu năng, sẵn sàng cùng bạn chinh phục mọi thử thách."
+    },
+    {
+        "id": 1,
+        "name": "Iphone 13 Pro",
+        "image": "https://cdn.tgdd.vn/Products/Images/42/230521/iphone-13-pro-graphite-600x600.jpg",
+        "price": 300000,
+        "owner": "Iphone",
+        "ice": [
+            "Red",
+            "Blue",
+            "Violet",
+            "Yellow",
+            "Gray"
+        ],
+        "size": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+
+        ],
+        "description": "Tại sự kiện ra mắt sản phẩm thường niên diễn ra vào tháng 9/2022, Apple đã trình làng iPhone 14 Pro với những cải tiến về thiết kế màn hình, hiệu năng, sẵn sàng cùng bạn chinh phục mọi thử thách."
+    },
+    {
+        "id": 2,
+        "name": "Iphone 12",
+        "image": "https://cdn.tgdd.vn/Products/Images/42/213031/iphone-12-den-new-2-600x600.jpg",
+        "price": 300000,
+        "owner": "Iphone",
+        "ice": [
+            "Red",
+            "Blue",
+            "Violet",
+            "Yellow",
+            "Gray"
+        ],
+        "size": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+
+        ],
+        "description": "Tại sự kiện ra mắt sản phẩm thường niên diễn ra vào tháng 9/2022, Apple đã trình làng iPhone 14 Pro với những cải tiến về thiết kế màn hình, hiệu năng, sẵn sàng cùng bạn chinh phục mọi thử thách."
+    },
+    {
+        "id": 3,
+        "name": "Iphone 13 Mini",
+        "image": "https://cdn.tgdd.vn/Products/Images/42/236780/iphone-13-mini-pink-1-600x600.jpg",
+        "price": 300000,
+        "owner": "Iphone",
+        "ice": [
+            "Red",
+            "Blue",
+            "Violet",
+            "Yellow",
+            "Gray"
+        ],
+        "size": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+
+        ],
+        "description": "Tại sự kiện ra mắt sản phẩm thường niên diễn ra vào tháng 9/2022, Apple đã trình làng iPhone 14 Pro với những cải tiến về thiết kế màn hình, hiệu năng, sẵn sàng cùng bạn chinh phục mọi thử thách."
+    },
+    {
+        "id": 4,
+        "name": "Iphone 11",
+        "image": "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-trang-600x600.jpg",
+        "price": 300000,
+        "owner": "Iphone",
+        "ice": [
+            "Red",
+            "Blue",
+            "Violet",
+            "Yellow",
+            "Gray"
+        ],
+        "size": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+
+        ],
+        "description": "Tại sự kiện ra mắt sản phẩm thường niên diễn ra vào tháng 9/2022, Apple đã trình làng iPhone 14 Pro với những cải tiến về thiết kế màn hình, hiệu năng, sẵn sàng cùng bạn chinh phục mọi thử thách."
+    }
+]

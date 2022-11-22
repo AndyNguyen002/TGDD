@@ -1,0 +1,117 @@
+[
+    {
+        "id": 0,
+        "name": "Galaxy Z Flip ",
+        "image": "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-5g-128gb-thumb-tim-600x600.jpg",
+        "price": 390000,
+        "owner": "Samsung",
+        "ice": [
+            "Red",
+            "Blue",
+            "Violet",
+            "Yellow",
+            "Gray"
+        ],
+        "size": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+
+        ],
+        "description": "Samsung Galaxy S22+ 5G 256GB đã được Samsung cho ra mắt vào ngày 09/02/2022. Máy nổi bật với cụm camera được cải tiến giúp bạn sáng tạo khoảnh khắc ấn tượng mỗi ngày, một vi xử lý mạnh mẽ cho mọi tác vụ sử dụng đều trở nên mượt mà hơn."
+    },
+    {
+        "id": 1,
+        "name": "Galaxy Z Fold",
+        "image": "https://cdn.tgdd.vn/Products/Images/42/285031/samsung-galaxy-z-fold4-kem-512gb-600x600.jpg",
+        "price": 300000,
+        "owner": "Samsung",
+        "ice": [
+            "Red",
+            "Blue",
+            "Violet",
+            "Yellow",
+            "Gray"
+        ],
+        "size": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+
+        ],
+        "description": "Samsung Galaxy S22+ 5G 256GB đã được Samsung cho ra mắt vào ngày 09/02/2022. Máy nổi bật với cụm camera được cải tiến giúp bạn sáng tạo khoảnh khắc ấn tượng mỗi ngày, một vi xử lý mạnh mẽ cho mọi tác vụ sử dụng đều trở nên mượt mà hơn."
+    },
+    {
+        "id": 2,
+        "name": "Galaxy S21 FE",
+        "image": "https://cdn.tgdd.vn/Products/Images/42/233090/Samsung-Galaxy-S21-FE-trang-1-2-600x600.jpg",
+        "price": 300000,
+        "owner": "Samsung",
+        "ice": [
+            "Red",
+            "Blue",
+            "Violet",
+            "Yellow",
+            "Gray"
+        ],
+        "size": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+
+        ],
+        "description": "Samsung Galaxy S22+ 5G 256GB đã được Samsung cho ra mắt vào ngày 09/02/2022. Máy nổi bật với cụm camera được cải tiến giúp bạn sáng tạo khoảnh khắc ấn tượng mỗi ngày, một vi xử lý mạnh mẽ cho mọi tác vụ sử dụng đều trở nên mượt mà hơn."
+    },
+    {
+        "id": 3,
+        "name": "Galaxy A73",
+        "image": "https://cdn.tgdd.vn/Products/Images/42/246195/samsung-galaxy-a73-5g-xanh-thumb-600x600.jpg",
+        "price": 300000,
+        "owner": "Samsung",
+        "ice": [
+            "Red",
+            "Blue",
+            "Violet",
+            "Yellow",
+            "Gray"
+        ],
+        "size": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+
+        ],
+        "description": "Samsung Galaxy S22+ 5G 256GB đã được Samsung cho ra mắt vào ngày 09/02/2022. Máy nổi bật với cụm camera được cải tiến giúp bạn sáng tạo khoảnh khắc ấn tượng mỗi ngày, một vi xử lý mạnh mẽ cho mọi tác vụ sử dụng đều trở nên mượt mà hơn."
+    },
+    {
+        "id": 4,
+        "name": "Samsung S22",
+        "image": "https://cdn.tgdd.vn/Products/Images/42/242439/Galaxy-S22-Plus-White-600x600.jpg",
+        "price": 300000,
+        "owner": "Samsung",
+        "ice": [
+            "Red",
+            "Blue",
+            "Violet",
+            "Yellow",
+            "Gray"
+        ],
+        "size": [
+            "128GB",
+            "256GB",
+            "512GB",
+            "1TB",
+            "2TB"
+
+        ],
+        "description": "Samsung Galaxy S22+ 5G 256GB đã được Samsung cho ra mắt vào ngày 09/02/2022. Máy nổi bật với cụm camera được cải tiến giúp bạn sáng tạo khoảnh khắc ấn tượng mỗi ngày, một vi xử lý mạnh mẽ cho mọi tác vụ sử dụng đều trở nên mượt mà hơn."
+    }
+]
