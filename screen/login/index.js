@@ -1,6 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 import {
   StyleSheet,
   Image,
@@ -15,47 +14,42 @@ import {
 import MainButton from '../../components/MainButton';
 import MainInput from '../../components/MainInput';
 export default function LoginScreen({ navigation }) {
-  const [taikhoan, setemail] = useState('');
-  const [matkhau, setpassword] = useState('');
+  const [email, setemail] = useState('');
+  const [password, setpassword] = useState('');
   const goToHome = () => {
-    if (taikhoan.trim() == '' || !taikhoan) {
-      alert('Không được để trống tài khoản !');
-    } else if (matkhau.trim() == '' || !matkhau) {
+    if (email.trim() == '' || !email) {
+      alert('Không được để trống email !');
+    } else if (password.trim() == '' || !password) {
       alert('Không được để trống mật khẩu !');
     } else {
       login();
     }
   };
   const login = async () => {
-    axios.get('https://raw.githubusercontent.com/AndyNguyen002/TGDD/main/data/db.json').then(response => {
-      let userData = response.data.NguoiDung
-      console.log(response.data)
-      if (userData) {
-        let arr = [...userData];
-        arr = arr.filter(
-          (value) =>
-            value.taikhoan.toLocaleLowerCase() == taikhoan.toLocaleLowerCase() &&
-            value.matkhau == matkhau
-        );
-        if (arr.length > 0) {
-          alert('Đăng nhập thành công', arr[0].taikhoan)
-          let curUser = arr[0];
-          AsyncStorage.setItem('curUser', JSON.stringify(curUser));
-          navigation.replace('HomeTab');
-        } else alert('Tài khoản hoặc mật khẩu không chính xác!');
-      } else {
-        alert('Tài khoản hoặc mật khẩu không chính xác!');
-      }
-    });
+    let userData = await AsyncStorage.getItem('userData');
+    if (userData) {
+      userData = JSON.parse(userData);
+      let arr = [...userData];
+      arr = arr.filter(
+        (value) =>
+          value.email.toLocaleLowerCase() == email.toLocaleLowerCase() &&
+          value.password == password
+      );
+      if (arr.length > 0) {
+        let curUser = arr[0];
+        AsyncStorage.setItem('curUser', JSON.stringify(curUser));
+        navigation.replace('HomeTab');
+      } else alert('Email hoặc mật khẩu không chính xác!');
+    } else {
+      alert('Email hoặc mật khẩu không chính xác!');
+    }
   };
-
   const goToSignUp = async () => {
     navigation.navigate('SignUpScreen');
   };
   const checkLogin = async () => {
     let userData = await AsyncStorage.getItem('curUser');
-    if (userData) console.log(1)
-    // if (userData) navigation.replace('HomeTab');
+    if (userData) navigation.replace('HomeTab');
   };
   useEffect(() => {
     checkLogin();
@@ -77,10 +71,9 @@ export default function LoginScreen({ navigation }) {
           <Image
             style={{
               alignSelf: 'center',
-              height: 80,
+              height: 100,
               resizeMode: 'contain',
               width: 300,
-              
             }}
             source={require('../../assets/iconnew.png')}
           />
@@ -88,27 +81,26 @@ export default function LoginScreen({ navigation }) {
             style={{
               textAlign: 'center',
               fontWeight: 'bold',
-              color: '#000',
+              color: '#2FDBBC',
               fontSize: 25,
               marginBottom: 50,
             }}
           >
-           Đăng nhập
+            
           </Text>
 
           <MainInput
             title={'Email'}
             placeholder={'Nhập email'}
-            value={taikhoan}
+            value={email}
             onChangeText={setemail}
           />
           <MainInput
             placeholder={'Nhập mật khẩu'}
             title={'Mật khẩu'}
-            value={matkhau}
+            value={password}
             secureTextEntry={true}
             onChangeText={setpassword}
-            
           />
           <MainButton
             style={{ marginTop: 20 }}

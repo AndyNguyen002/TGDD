@@ -12,7 +12,7 @@ export default function MainInput(props) {
   } = props;
   return (
     <>
-      <Text style={{ color: "#2FDBBC", fontWeight: "bold", marginLeft: 20 }}>
+      <Text style={{ color: "#ffd42d", fontWeight: "bold", marginLeft: 20 }}>
         {title}
       </Text>
       <TextInput
